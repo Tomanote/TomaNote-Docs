@@ -1,0 +1,31 @@
+---
+title: TomaNote Docs
+description: Official documentation for TomaNote — a minimalist, offline-first note-taking web app.
+template: splash
+hero:
+  tagline: Official documentation for TomaNote — minimalist, offline-first notes.
+  actions:
+    - text: Get started
+      link: /guides/getting-started/
+      icon: right-arrow
+    - text: Keyboard shortcuts
+      link: /guides/shortcuts/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+TomaNote is a minimal note-taking web app with automatic saving, offline-first storage and a clean interface.
+
+<CardGrid>
+	<Card title="Getting started" icon="rocket">
+		Learn the basics of creating, editing and organizing your notes.
+	</Card>
+	<Card title="Keyboard shortcuts" icon="open-book">
+		Speed up your workflow with the available shortcuts.
+	</Card>
+	<Card title="Contributing" icon="pencil">
+		Find out how to collaborate with the TomaNote project.
+	</Card>
+</CardGrid>

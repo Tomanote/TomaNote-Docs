@@ -1,0 +1,133 @@
+/* ===========================================
+   TomaNote Docs — theme mapped to the app's
+   design tokens (src/styles/abstracts/Variables.scss)
+   =========================================== */
+
+/*
+   App tokens (Variables.scss):
+   - dark : bg #181A1B · secondary #272E38 · accent #465461 · contrast #335484 · text #FFF
+   - light: bg #E0D3C2 · secondary #F1EBE4 · accent #FF893B · contrast #CFA37E · text #000
+   - link : #276FBF (both themes)
+
+   Accent tints are derived from the app hexes with color-mix so the
+   site keeps the app identity while meeting WCAG AA contrast.
+*/
+
+/* --- Dark (default) --- */
+:root {
+	--sl-font: 'Inter', var(--sl-font-system);
+
+	/* App dark palette */
+	--sl-color-bg: #181A1B;
+	--sl-color-bg-nav: #272E38;
+	--sl-color-bg-sidebar: #272E38;
+	--sl-color-bg-inline-code: #272E38;
+	--sl-color-bg-accent: #335484;
+
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #e8eaec;
+	--sl-color-gray-2: #d3d7da;
+	--sl-color-gray-3: #9aa3ad;
+	--sl-color-gray-4: #6b747d;
+	--sl-color-gray-5: #465461;
+	--sl-color-gray-6: #272e38;
+	--sl-color-gray-7: #181a1b;
+	--sl-color-black: #101112;
+
+	/* Accent family derived from app contrast #335484 */
+	--sl-color-accent-low: #212e40;
+	--sl-color-accent: #8fa1bb;
+	--sl-color-accent-high: #bed4ec;
+
+	--sl-color-text: #e8eaec;
+	--sl-color-text-accent: #335484;
+	--sl-color-text-invert: #181a1b;
+
+	--sl-color-hairline: #272e38;
+	--sl-color-hairline-light: #465461;
+	--sl-color-hairline-shade: #101112;
+}
+
+/* --- Light --- */
+:root[data-theme='light'] {
+	/* App light palette */
+	--sl-color-bg: #e0d3c2;
+	--sl-color-bg-nav: #f1ebe4;
+	--sl-color-bg-sidebar: #f1ebe4;
+	--sl-color-bg-inline-code: #f1ebe4;
+	--sl-color-bg-accent: #ff893b;
+
+	--sl-color-white: #181a1b;
+	--sl-color-gray-1: #241f1a;
+	--sl-color-gray-2: #3d362d;
+	--sl-color-gray-3: #5c5346;
+	--sl-color-gray-4: #857963;
+	--sl-color-gray-5: #b3a48a;
+	--sl-color-gray-6: #f1ebe4;
+	--sl-color-gray-7: #e0d3c2;
+	--sl-color-black: #E0D3C2;
+
+	/* Accent family derived from app accent #FF893B */
+	--sl-color-accent-low: #f4d7c2;
+	--sl-color-accent: #b55309;
+	--sl-color-accent-high: #CFA37E;
+
+	--sl-color-text: #3d362d;
+	--sl-color-text-accent: #FF893B;
+	--sl-color-text-invert: #ffffff;
+
+	--sl-color-hairline: #d8c9b4;
+	--sl-color-hairline-light: #efe7dc;
+	--sl-color-hairline-shade: #c4b198;
+}
+
+/* --- App link color (#276FBF) for in-content links --- */
+:root {
+	.sl-markdown-content a:not(.sl-badge):not(.sl-button) {
+		color: #bed4ec;
+
+		&:hover {
+			color: var(--sl-color-white);
+		}
+	}
+}
+
+:root[data-theme='light'] {
+	.sl-markdown-content a:not(.sl-badge):not(.sl-button) {
+		color: #1d548f;
+
+		&:hover {
+			color: #276fbf;
+		}
+	}
+}
+
+/* --- App-like scrollbar --- */
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #2d2d2d;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #676767;
+	border-radius: 4px;
+
+	&:hover {
+		background: var(--sl-color-accent);
+	}
+}
+
+:root[data-theme='light'] {
+	::-webkit-scrollbar-track {
+		background: #f0f0f0;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #b0b0b0;
+	}
+}
