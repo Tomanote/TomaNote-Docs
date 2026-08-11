@@ -81,6 +81,24 @@
 	--sl-color-hairline-shade: #c4b198;
 }
 
+/* --- Screenshot placeholders (pending captures) --- */
+.screenshot-placeholder {
+	border: 2px dashed var(--sl-color-gray-4);
+	border-radius: 0.5rem;
+	padding: 1.5rem 1rem;
+	margin: 1.25rem 0;
+	text-align: center;
+	font-style: italic;
+	line-height: 1.6;
+	color: var(--sl-color-gray-3);
+	background: color-mix(in srgb, var(--sl-color-bg-accent) 10%, transparent);
+
+	code {
+		font-style: normal;
+		color: var(--sl-color-text-accent);
+	}
+}
+
 /* --- App link color (#276FBF) for in-content links --- */
 :root {
 	.sl-markdown-content a:not(.sl-badge):not(.sl-button) {
