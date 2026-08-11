@@ -14,27 +14,39 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 TomaNote is a minimalist, offline-first note-taking web app that runs entirely in your browser. No accounts, no servers — your notes are saved automatically on your own device.
 
 <CardGrid>
-	<Card title="Getting started" icon="rocket">
-		Create your first note, use tabs and understand how autosave works.
-	</Card>
-	<Card title="Notes & tabs" icon="list">
-		Manage multiple notes with tabs: create, rename, pin, reorder and delete.
-	</Card>
-	<Card title="Editor & formatting" icon="pencil">
-		Write and format your notes with bold, italic and underline.
-	</Card>
-	<Card title="Command palette" icon="search">
-		Jump to any note instantly by searching its title or content.
-	</Card>
-	<Card title="Settings" icon="star">
-		Customize typography, theme, language, width and paper background.
-	</Card>
-	<Card title="Contributing" icon="github">
-		Find out how to collaborate with the TomaNote project.
-	</Card>
+	<LinkCard
+		title="Getting started"
+		description="Create your first note, use tabs and understand how autosave works."
+		href="/guides/getting-started/"
+	/>
+	<LinkCard
+		title="Notes &amp; tabs"
+		description="Manage multiple notes with tabs: create, rename, pin, reorder and delete."
+		href="/guides/notes-tabs/"
+	/>
+	<LinkCard
+		title="Editor &amp; formatting"
+		description="Write and format your notes with bold, italic and underline."
+		href="/guides/editor/"
+	/>
+	<LinkCard
+		title="Command palette"
+		description="Jump to any note instantly by searching its title or content."
+		href="/guides/command-palette/"
+	/>
+	<LinkCard
+		title="Settings"
+		description="Customize typography, theme, language, width and paper background."
+		href="/guides/settings/"
+	/>
+	<LinkCard
+		title="Contributing"
+		description="Find out how to collaborate with the TomaNote project."
+		href="/guides/contribute/"
+	/>
 </CardGrid>
