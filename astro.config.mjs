@@ -61,10 +61,57 @@ export default defineConfig({
               translations: { es: "Primeros pasos" },
             },
             {
+              label: "Interface overview",
+              slug: "guides/interface",
+              translations: { es: "Vista general de la interfaz" },
+            },
+            {
+              label: "Privacy & data",
+              slug: "guides/privacy",
+              translations: { es: "Privacidad y datos" },
+            },
+          ],
+        },
+        {
+          label: "Features",
+          translations: { es: "Funcionalidades" },
+          items: [
+            {
+              label: "Notes & tabs",
+              slug: "guides/notes-tabs",
+              translations: { es: "Notas y pestañas" },
+            },
+            {
+              label: "Editor & formatting",
+              slug: "guides/editor",
+              translations: { es: "Editor y formato" },
+            },
+            {
+              label: "Command palette",
+              slug: "guides/command-palette",
+              translations: { es: "Paleta de comandos" },
+            },
+            {
+              label: "Tools & right sidebar",
+              slug: "guides/tools",
+              translations: { es: "Herramientas y barra lateral derecha" },
+            },
+            {
+              label: "Settings",
+              slug: "guides/settings",
+              translations: { es: "Ajustes" },
+            },
+            {
               label: "Keyboard shortcuts",
               slug: "guides/shortcuts",
               translations: { es: "Atajos de teclado" },
             },
+          ],
+        },
+        {
+          label: "Contributing",
+          translations: { es: "Contribuir" },
+          items: [
             {
               label: "Contributing",
               slug: "guides/contribute",
