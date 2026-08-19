@@ -3,7 +3,7 @@ title: Documentación de TomaNote
 description: Documentación oficial de TomaNote — una aplicación web de notas minimalista y offline-first.
 template: splash
 hero:
-  tagline: Documentación oficial de TomaNote — notas minimalistas, offline-first.
+  tagline: Documentación oficial de TomaNote — notas minimalistas, offline-first, que viven en tu dispositivo.
   actions:
     - text: Primeros pasos
       link: /es/guides/getting-started/
@@ -14,18 +14,39 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-TomaNote es una aplicación web de notas minimalista con guardado automático, almacenamiento offline-first e interfaz limpia.
+TomaNote es una aplicación web de notas minimalista y offline-first que funciona por completo en tu navegador. Sin cuentas ni servidores: tus notas se guardan automáticamente en tu propio dispositivo.
 
 <CardGrid>
-	<Card title="Primeros pasos" icon="rocket">
-		Aprende lo básico para crear, editar y organizar tus notas.
-	</Card>
-	<Card title="Atajos de teclado" icon="open-book">
-		Agiliza tu flujo de trabajo con los atajos disponibles.
-	</Card>
-	<Card title="Contribuir" icon="pencil">
-		Descubre cómo colaborar con el proyecto TomaNote.
-	</Card>
+	<LinkCard
+		title="Primeros pasos"
+		description="Crea tu primera nota, usa las pestañas y entiende cómo funciona el guardado automático."
+		href="/es/guides/getting-started/"
+	/>
+	<LinkCard
+		title="Notas y pestañas"
+		description="Gestiona varias notas con pestañas: crear, renombrar, fijar, reordenar y eliminar."
+		href="/es/guides/notes-tabs/"
+	/>
+	<LinkCard
+		title="Editor y formato"
+		description="Escribe y da formato a tus notas con negrita, cursiva y subrayado."
+		href="/es/guides/editor/"
+	/>
+	<LinkCard
+		title="Paleta de comandos"
+		description="Salta a cualquier nota al instante buscando por título o contenido."
+		href="/es/guides/command-palette/"
+	/>
+	<LinkCard
+		title="Ajustes"
+		description="Personaliza tipografía, tema, idioma, ancho y fondo de papel."
+		href="/es/guides/settings/"
+	/>
+	<LinkCard
+		title="Contribuir"
+		description="Descubre cómo colaborar con el proyecto TomaNote."
+		href="/es/guides/contribute/"
+	/>
 </CardGrid>

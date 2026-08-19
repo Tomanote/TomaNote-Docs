@@ -1,0 +1,55 @@
+---
+// src/components/SiteTitle.astro
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/SiteTitle.astro';
+import { readFileSync } from "node:fs";
+import { URL } from "node:url";
+
+let appVersion = "";
+
+try {
+  // Version local
+  const devPath = new URL("../../../TomaNote/package.json", import.meta.url);
+  const packageJson = JSON.parse(readFileSync(devPath, "utf-8"));
+  appVersion = packageJson.version ? `v${packageJson.version}` : "";
+} catch (e) {
+  try {
+    // Version in the ORG
+    const prodPath = new URL("../../package.json", import.meta.url);
+    const packageJson = JSON.parse(readFileSync(prodPath, "utf-8"));
+    appVersion = packageJson.version ? `v${packageJson.version}` : "";
+  } catch (err) {
+    appVersion = ""; 
+  }
+}
+---
+
+<div class="site-title-container">
+  {/* Render logo and layout normal from starlight */}
+  <Default {...Astro.props} />
+  
+  {/* Add version from TAG of Main app */}
+  {appVersion && (
+    <span class="app-version-badge">
+      {appVersion}
+    </span>
+  )}
+</div>
+
+<style>
+  .site-title-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .app-version-badge {
+    font-size: 0.75rem;
+    background-color: var(--sl-color-bg-inline-code);
+    color: var(--sl-color-text-accent);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    margin-left: 0.25rem;
+    border: 1px solid var(--sl-color-hairline);
+  }
+</style>
