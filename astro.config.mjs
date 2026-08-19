@@ -1,6 +1,13 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import { readFileSync } from "node:fs";
+import { URL } from "node:url";
+
+// Leer la versión actual de forma segura desde el package.json
+const packageJsonPath = new URL("./package.json", import.meta.url);
+const packageJson = JSON.parse(readFileSync(packageJsonPath, "utf-8"));
+const appVersion = packageJson.version ? `v${packageJson.version}` : "";
 
 // https://astro.build/config
 export default defineConfig({
@@ -120,6 +127,9 @@ export default defineConfig({
           ],
         },
       ],
+      components: {
+        SiteTitle: "./src/components/SiteTitle.astro",
+      },
     }),
   ],
 });
