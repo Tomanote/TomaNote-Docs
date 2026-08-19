@@ -5,9 +5,7 @@ description: A tour of every region of the TomaNote interface.
 
 TomaNote's interface is split into a few clearly separated regions. On larger screens you get a left sidebar, a horizontal tab strip, the editor and a right sidebar with tools. On smaller screens the toolbars move to a bottom bar.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/interface-desktop-light.png</code> — Desktop layout, light theme
-</div>
+![interface-desktop-light](/screenshots/interface-desktop-light.png)
 
 ## Left sidebar (desktop)
 
@@ -19,9 +17,7 @@ The narrow left sidebar gives you quick access to the app's main actions, each w
 
 The TomaNote logo sits at the top of the sidebar.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/interface-sidebar-left.png</code> — Left sidebar buttons
-</div>
+![interface-sidebar-left](/screenshots/interface-sidebar-left.png)
 
 ## Tab strip
 
@@ -37,9 +33,7 @@ Your open notes live as tabs in a horizontal strip at the top of the main area:
 
 The main area is the editor, where you write. Its paper background can be **flat**, **underlined** or **gridded** (see [Settings](/guides/settings/)). When there are no open notes, an empty state appears: "Oops… nothing here!".
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/interface-empty-state.png</code> — Empty state
-</div>
+![interface-empty-state](/screenshots/interface-empty-state.png)
 
 ## Right sidebar (desktop)
 
@@ -56,9 +50,7 @@ See [Tools & right sidebar](/guides/tools/) for details.
 
 On smaller screens the toolbars collapse into a bottom bar with the same **Content**, **Font** and **Tab** groups, plus **search**, **settings** and a **new note** button.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/interface-mobile.png</code> — Mobile layout with bottom bar
-</div>
+![interface-mobile](/screenshots/interface-mobile.png)
 
 ## Save indicator
 

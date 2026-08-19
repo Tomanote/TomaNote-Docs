@@ -5,9 +5,7 @@ description: Escribe y da formato a tus notas en el editor de TomaNote.
 
 El editor es el área principal de la app. Haz clic en cualquier nota abierta y empieza a escribir. El texto se guarda automáticamente mientras escribes.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/editor-basics.png</code> — Escribiendo en el editor
-</div>
+![interface-editor-basics](/screenshots/editor-basics.png)
 
 ## Formato
 
@@ -50,17 +48,15 @@ Pulsar `Tab` dentro del editor inserta cuatro espacios (útil para indentar).
 
 Haz clic derecho dentro del editor para abrir el menú contextual:
 
-| Grupo | Acciones |
-| --- | --- |
-| Editar | Copiar `Ctrl+C`, Cortar `Ctrl+X`, Pegar `Ctrl+V` |
-| Formato | Negrita `Ctrl+B`, Cursiva `Ctrl+I`, Subrayado `Ctrl+U` |
-| Historial | Deshacer `Ctrl+Z`, Rehacer `Ctrl+Y` |
+| Grupo     | Acciones                                               |
+| --------- | ------------------------------------------------------ |
+| Editar    | Copiar `Ctrl+C`, Cortar `Ctrl+X`, Pegar `Ctrl+V`       |
+| Formato   | Negrita `Ctrl+B`, Cursiva `Ctrl+I`, Subrayado `Ctrl+U` |
+| Historial | Deshacer `Ctrl+Z`, Rehacer `Ctrl+Y`                    |
 
 Los elementos que necesitan selección (copiar, cortar, negrita, cursiva, subrayado) se deshabilitan cuando no hay nada seleccionado.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/editor-context-menu.png</code> — Menú contextual en el editor
-</div>
+![interface-editor-context-menu](/screenshots/editor-context-menu.png)
 
 ## Texto plano, no markdown
 

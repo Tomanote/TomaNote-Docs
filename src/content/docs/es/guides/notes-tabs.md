@@ -5,9 +5,7 @@ description: Crear, renombrar, fijar, reordenar y eliminar notas en TomaNote.
 
 Cada nota de TomaNote vive en una **pestaña**, igual que las pestañas del navegador. Así puedes tener varias notas abiertas y cambiar entre ellas sin perder el sitio.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/tabs-strip.png</code> — Franja de pestañas con varias notas abiertas
-</div>
+![interface-empty-state](/screenshots/tabs-strip.png)
 
 ## Crear una nota
 
@@ -34,12 +32,12 @@ Cada nota de TomaNote vive en una **pestaña**, igual que las pestañas del nave
 
 ## Saltar entre pestañas
 
-| Atajo | Acción |
-| --- | --- |
+| Atajo             | Acción                    |
+| ----------------- | ------------------------- |
 | `Alt+1` … `Alt+9` | Saltar a la pestaña 1 … 9 |
-| `Alt+,` | Pestaña anterior |
-| `Alt+.` | Pestaña siguiente |
-| `Alt+W` | Cerrar la pestaña activa |
+| `Alt+,`           | Pestaña anterior          |
+| `Alt+.`           | Pestaña siguiente         |
+| `Alt+W`           | Cerrar la pestaña activa  |
 
 ## Eliminar una nota
 
@@ -49,9 +47,7 @@ Eliminar es **irreversible**, por eso TomaNote siempre pide confirmación.
 - Pulsa `Alt+Retroceso` (Backspace).
 - Haz clic central sobre una pestaña.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/tabs-delete-confirm.png</code> — Diálogo de confirmación de borrado
-</div>
+![interface-empty-state](/screenshots/tabs-delete-confirm.png)
 
 El diálogo de confirmación ofrece **Eliminar nota** y **Cancelar**. Pulsar `Esc` también cancela.
 

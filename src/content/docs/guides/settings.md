@@ -45,9 +45,7 @@ Pick the font used in the editor:
 
 Font settings are saved locally in this browser and applied automatically.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/settings-typography.png</code> — Typography tab
-</div>
+![settings-typography](/screenshots/settings-typography.png)
 
 ## Appearance
 
@@ -80,9 +78,7 @@ Six themes are available (there is no "system" option):
 - **Underline** — ruled-paper lines.
 - **Grid** — squared paper.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/settings-appearance.png</code> — Appearance tab
-</div>
+![settings-appearance](/screenshots/settings-appearance.png)
 
 ## Roadmap
 

@@ -5,9 +5,7 @@ description: The formatting and tab tools in the right sidebar and the mobile bo
 
 TomaNote groups its quick actions into three tool groups — **Content**, **Font** and **Tab** — available in the right sidebar on desktop and in the bottom bar on mobile.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/tools-right-sidebar.png</code> — Right sidebar tools on desktop
-</div>
+![tools-right-sidebar](/screenshots/tools-right-sidebar.png)
 
 ## Right sidebar (desktop)
 
@@ -30,9 +28,7 @@ The bottom bar also includes:
 - **Settings** — opens the settings modal.
 - **+** — creates a new note.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/tools-bottom-bar.png</code> — Bottom bar on mobile
-</div>
+![tools-bottom-bar](/screenshots/tools-bottom-bar.png)
 
 ## Using the tools with a selection
 

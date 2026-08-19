@@ -9,9 +9,7 @@ TomaNote es una aplicación web de notas minimalista y offline-first. Funciona p
 
 Visita [tomanote.app](https://tomanote.app). Puedes empezar a escribir de inmediato, sin registrarte.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/getting-started-light.png</code> — Interfaz principal de TomaNote (tema claro)
-</div>
+![getting-started-light](/screenshots/getting-started-light.png)
 
 ## Crear tu primera nota
 
@@ -19,9 +17,9 @@ Visita [tomanote.app](https://tomanote.app). Puedes empezar a escribir de inmedi
 - Usa el botón **+** de la barra lateral derecha (desktop) o de la barra inferior (móvil), o pulsa `Alt+N`, para abrir otra nota en una pestaña nueva.
 - Tus notas permanecen abiertas como pestañas, igual que en un navegador.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/getting-started-editor.png</code> — Editor con una nota nueva
-</div>
+![getting-started-editor](/screenshots/getting-started-editor.png)
+
+![getting-started-editor](/screenshots/getting-started-editor-2.png)
 
 ## Guardado automático
 

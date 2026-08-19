@@ -5,9 +5,7 @@ description: Un recorrido por cada zona de la interfaz de TomaNote.
 
 La interfaz de TomaNote se divide en varias zonas bien diferenciadas. En pantallas grandes tienes una barra lateral izquierda, una franja horizontal de pestañas, el editor y una barra lateral derecha con herramientas. En pantallas pequeñas las herramientas pasan a una barra inferior.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/interface-desktop-light.png</code> — Diseño de escritorio, tema claro
-</div>
+![interface-desktop-light](/screenshots/interface-desktop-light.png)
 
 ## Barra lateral izquierda (desktop)
 
@@ -19,9 +17,7 @@ La estrecha barra lateral izquierda te da acceso rápido a las acciones principa
 
 El logo de TomaNote está en la parte superior de la barra.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/interface-sidebar-left.png</code> — Botones de la barra lateral izquierda
-</div>
+![interface-sidebar-left](/screenshots/interface-sidebar-left.png)
 
 ## Franja de pestañas
 
@@ -33,13 +29,13 @@ Tus notas abiertas viven como pestañas en una franja horizontal en la parte sup
 - Arrastra una pestaña para reordenarla, o pulsa `Alt+1` a `Alt+9` para saltar a una pestaña concreta.
 - Pulsa **+** (o `Alt+N`) para crear una nota nueva.
 
+![interface-top-tabs](/screenshots/interface-top-tabs.png)
+
 ## Editor
 
 El área principal es el editor, donde escribes. Su fondo de papel puede ser **plano**, **rayado** o **cuadriculado** (ver [Ajustes](/es/guides/settings/)). Cuando no hay notas abiertas aparece el estado vacío: "¡Ups… nada por aquí!".
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/interface-empty-state.png</code> — Estado vacío
-</div>
+![interface-empty-state](/screenshots/interface-empty-state.png)
 
 ## Barra lateral derecha (desktop)
 
@@ -56,9 +52,7 @@ Consulta [Herramientas y barra lateral derecha](/es/guides/tools/) para más det
 
 En pantallas pequeñas las herramientas se agrupan en una barra inferior con los mismos grupos **Contenido**, **Fuente** y **Pestaña**, además de los botones de **buscar**, **ajustes** y **nueva nota**.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/interface-mobile.png</code> — Diseño móvil con barra inferior
-</div>
+![interface-mobile](/screenshots/interface-mobile.png)
 
 ## Indicador de guardado
 

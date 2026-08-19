@@ -17,14 +17,14 @@ Los cambios se aplican automáticamente al elegirlos; el botón **Aceptar** cier
 
 El modal de ajustes tiene seis pestañas:
 
-| Pestaña | Qué hace |
-| --- | --- |
-| Acerca de | Información de la app y versión |
-| Licencia | Detalles de la licencia |
-| Términos | Condiciones de uso |
-| Roadmap | Novedades, versión actual y planificada |
-| Tipografía | Familia y tamaño de la fuente |
-| Apariencia | Tema, idioma, ancho y papel |
+| Pestaña    | Qué hace                                |
+| ---------- | --------------------------------------- |
+| Acerca de  | Información de la app y versión         |
+| Licencia   | Detalles de la licencia                 |
+| Términos   | Condiciones de uso                      |
+| Roadmap    | Novedades, versión actual y planificada |
+| Tipografía | Familia y tamaño de la fuente           |
+| Apariencia | Tema, idioma, ancho y papel             |
 
 ## Tipografía
 
@@ -37,17 +37,15 @@ Elige la fuente del editor:
 
 ### Tamaño de fuente
 
-| Opción | Tamaño en el editor |
-| --- | --- |
-| Base (por defecto) | 16 px |
-| Mediano | 20 px |
-| Grande | 25,6 px |
+| Opción             | Tamaño en el editor |
+| ------------------ | ------------------- |
+| Base (por defecto) | 16 px               |
+| Mediano            | 20 px               |
+| Grande             | 25,6 px             |
 
 La configuración de la fuente se guarda localmente en este navegador y se aplica automáticamente.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/settings-typography.png</code> — Pestaña Tipografía
-</div>
+![interface-mobile](/screenshots/settings-typography.png)
 
 ## Apariencia
 
@@ -55,14 +53,16 @@ La configuración de la fuente se guarda localmente en este navegador y se aplic
 
 Hay seis temas disponibles (no existe la opción "sistema"):
 
-| Tema | Colores |
-| --- | --- |
-| Oscuro (por defecto) | Carbón oscuro con acentos azules |
-| Claro | Beige cálido con acentos naranjas |
-| Cozy Rose | Rosas y púrpuras suaves |
-| Chill Aqua | Tonos turquesa y aguamarina |
-| Wild Forest | Verdes y marrones |
-| Neon Orbit | Azul marino profundo con magenta |
+| Tema                 | Colores                           |
+| -------------------- | --------------------------------- |
+| Oscuro (por defecto) | Carbón oscuro con acentos azules  |
+| Claro                | Beige cálido con acentos naranjas |
+| Cozy Rose            | Rosas y púrpuras suaves           |
+| Chill Aqua           | Tonos turquesa y aguamarina       |
+| Wild Forest          | Verdes y marrones                 |
+| Neon Orbit           | Azul marino profundo con magenta  |
+
+![settings-theme-selector](/screenshots/settings-theme-selector.png)
 
 ### Idioma
 
@@ -80,9 +80,7 @@ Hay seis temas disponibles (no existe la opción "sistema"):
 - **Rayado** — líneas de cuaderno.
 - **Cuadriculado** — papel cuadriculado.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/settings-appearance.png</code> — Pestaña Apariencia
-</div>
+![settings-appearance](/screenshots/settings-appearance.png)
 
 ## Roadmap
 
@@ -94,6 +92,4 @@ La pestaña Roadmap muestra las versiones publicadas y planificadas como columna
 
 Expande cada elemento para leer sus detalles. Entre lo planificado están la vista previa de markdown en vivo, la entrada con lápiz/stylus, la sincronización LAN y la precarga offline. Usa **"Ver changelog completo →"** para ver todo el historial de cambios en GitHub.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/settings-roadmap.png</code> — Pestaña Roadmap
-</div>
+![settings-roadmap](/screenshots/settings-roadmap.png)

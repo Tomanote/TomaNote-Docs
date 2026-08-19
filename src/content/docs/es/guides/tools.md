@@ -5,20 +5,18 @@ description: Las herramientas de formato y pestañas en la barra lateral derecha
 
 TomaNote agrupa sus acciones rápidas en tres grupos de herramientas — **Contenido**, **Fuente** y **Pestaña** — disponibles en la barra lateral derecha en desktop y en la barra inferior en móvil.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/tools-right-sidebar.png</code> — Herramientas de la barra lateral derecha en desktop
-</div>
+![interface-tools-right-sidebar](/screenshots/tools-right-sidebar.png)
 
 ## Barra lateral derecha (desktop)
 
 En pantallas de 768 px o más, las herramientas aparecen como un **panel estático en el lado derecho** de la app. Cada botón muestra un tooltip al pasar el cursor.
 
-| Botón | Acción |
-| --- | --- |
-| **+** | Crear una nota nueva |
-| **Contenido** | Rehacer, Deshacer, Copiar, Pegar |
-| **Fuente** | Negrita, Subrayado, Cursiva |
-| **Pestaña** | Fijar pestaña, Renombrar pestaña, Eliminar pestaña |
+| Botón         | Acción                                             |
+| ------------- | -------------------------------------------------- |
+| **+**         | Crear una nota nueva                               |
+| **Contenido** | Rehacer, Deshacer, Copiar, Pegar                   |
+| **Fuente**    | Negrita, Subrayado, Cursiva                        |
+| **Pestaña**   | Fijar pestaña, Renombrar pestaña, Eliminar pestaña |
 
 ## Barra inferior (móvil)
 
@@ -30,9 +28,7 @@ La barra inferior también incluye:
 - **Ajustes** — abre el modal de ajustes.
 - **+** — crea una nota nueva.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/tools-bottom-bar.png</code> — Barra inferior en móvil
-</div>
+![interface-tools-bottom-bar](/screenshots/tools-bottom-bar.png)
 
 ## Usar las herramientas con una selección
 

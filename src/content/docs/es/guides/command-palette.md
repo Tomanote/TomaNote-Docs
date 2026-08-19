@@ -5,9 +5,7 @@ description: Busca tus notas al instante por título o contenido.
 
 La paleta de comandos es una herramienta de **búsqueda de notas**: encuentra las notas abiertas (pestañas) por su nombre o su contenido, para que puedas saltar a cualquier nota en un par de pulsaciones.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/command-palette-open.png</code> — Paleta de comandos abierta con resultados
-</div>
+![interface-command-palette](/screenshots/command-palette-open.png)
 
 ## Abrir la paleta
 
@@ -28,10 +26,10 @@ Con el campo de búsqueda vacío, la paleta muestra **Recientes**: las hasta tre
 
 ## Navegación con teclado
 
-| Tecla | Acción |
-| --- | --- |
+| Tecla     | Acción                                    |
+| --------- | ----------------------------------------- |
 | `↑` / `↓` | Moverse por los resultados (da la vuelta) |
-| `Enter` | Abrir la nota seleccionada |
-| `Esc` | Cerrar la paleta |
+| `Enter`   | Abrir la nota seleccionada                |
+| `Esc`     | Cerrar la paleta                          |
 
 También puedes hacer clic en un resultado para abrirlo, o hacer clic fuera para cerrar.

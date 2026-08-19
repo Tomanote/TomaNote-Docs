@@ -5,44 +5,42 @@ description: Todos los atajos de teclado disponibles en TomaNote.
 
 La mayor parte de TomaNote puede controlarse desde el teclado. Pulsa `Alt+/` en cualquier momento para abrir la ayuda de atajos de teclado, o haz clic en el botón **Atajos de teclado** de la barra lateral izquierda.
 
-<div class="screenshot-placeholder" role="img" aria-label="Lugar para captura de pantalla">
-  📸 Captura: <code>screenshots/shortcuts-help.png</code> — Superposición de ayuda de atajos de teclado
-</div>
+![shortcuts-help](/screenshots/shortcuts-help.png)
 
 ## Navegación
 
-| Atajo | Acción |
-| --- | --- |
-| `Ctrl+K` | Paleta de comandos (buscar notas) |
-| `Alt+S` | Abrir ajustes |
-| `Alt+/` | Abrir / cerrar la ayuda de atajos |
-| `Esc` | Salir de la edición del nombre de la pestaña / deseleccionar la pestaña activa |
+| Atajo    | Acción                                                                         |
+| -------- | ------------------------------------------------------------------------------ |
+| `Ctrl+K` | Paleta de comandos (buscar notas)                                              |
+| `Alt+S`  | Abrir ajustes                                                                  |
+| `Alt+/`  | Abrir / cerrar la ayuda de atajos                                              |
+| `Esc`    | Salir de la edición del nombre de la pestaña / deseleccionar la pestaña activa |
 
 ## Pestañas
 
-| Atajo | Acción |
-| --- | --- |
-| `Alt+N` | Nueva pestaña |
-| `Alt+W` | Cerrar la pestaña activa |
-| `Alt+,` | Pestaña anterior |
-| `Alt+.` | Pestaña siguiente |
-| `Alt+1` … `Alt+9` | Ir a la pestaña 1 … 9 |
-| `Alt+T` | Renombrar la pestaña activa |
-| `Alt+P` | Fijar / desfijar la pestaña activa |
-| `Alt+Backspace` | Eliminar la pestaña activa (con confirmación) |
+| Atajo             | Acción                                        |
+| ----------------- | --------------------------------------------- |
+| `Alt+N`           | Nueva pestaña                                 |
+| `Alt+W`           | Cerrar la pestaña activa                      |
+| `Alt+,`           | Pestaña anterior                              |
+| `Alt+.`           | Pestaña siguiente                             |
+| `Alt+1` … `Alt+9` | Ir a la pestaña 1 … 9                         |
+| `Alt+T`           | Renombrar la pestaña activa                   |
+| `Alt+P`           | Fijar / desfijar la pestaña activa            |
+| `Alt+Backspace`   | Eliminar la pestaña activa (con confirmación) |
 
 ## Editor
 
-| Atajo | Acción |
-| --- | --- |
-| `Ctrl+S` | Guardar (retroalimentación instantánea) |
-| `Ctrl+B` | Negrita (ciclo de tres estados) |
-| `Ctrl+I` | Cursiva * |
-| `Ctrl+U` | Subrayado * |
-| `Ctrl+C` / `Ctrl+X` / `Ctrl+V` | Copiar / cortar / pegar (texto plano) |
-| `Ctrl+Z` / `Ctrl+Y` | Deshacer / rehacer |
-| `Tab` | Insertar 4 espacios |
-| `Alt+E` | Alternar ancho del editor (por defecto / estirado) |
+| Atajo                          | Acción                                             |
+| ------------------------------ | -------------------------------------------------- |
+| `Ctrl+S`                       | Guardar (retroalimentación instantánea)            |
+| `Ctrl+B`                       | Negrita (ciclo de tres estados)                    |
+| `Ctrl+I`                       | Cursiva *                                          |
+| `Ctrl+U`                       | Subrayado *                                        |
+| `Ctrl+C` / `Ctrl+X` / `Ctrl+V` | Copiar / cortar / pegar (texto plano)              |
+| `Ctrl+Z` / `Ctrl+Y`            | Deshacer / rehacer                                 |
+| `Tab`                          | Insertar 4 espacios                                |
+| `Alt+E`                        | Alternar ancho del editor (por defecto / estirado) |
 
 \* Depende del navegador: consulta [Editor y formato](/es/guides/editor/).
 

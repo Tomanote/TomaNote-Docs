@@ -5,9 +5,7 @@ description: Write and format your notes in the TomaNote editor.
 
 The editor is the main area of the app. Click any open note and start typing. Text is saved automatically as you write.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/editor-basics.png</code> — Writing in the editor
-</div>
+![editor-basics](/screenshots/editor-basics.png)
 
 ## Formatting
 
@@ -58,9 +56,7 @@ Right-click inside the editor to open the context menu:
 
 Items that need a selection (copy, cut, bold, italic, underline) are disabled when there's nothing selected.
 
-<div class="screenshot-placeholder" role="img" aria-label="Screenshot placeholder">
-  📸 Screenshot: <code>screenshots/editor-context-menu.png</code> — Context menu in the editor
-</div>
+![editor-context-menu](/screenshots/editor-context-menu.png)
 
 ## Plain text, not markdown
 
