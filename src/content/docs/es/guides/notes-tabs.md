@@ -26,6 +26,10 @@ Cada nota de TomaNote vive en una **pestaña**, igual que las pestañas del nave
 - Las pestañas fijadas se mueven al frente y conservan cualquier emoji que hayas añadido al nombre.
 - Pulsa `Alt+P` de nuevo para desfijar.
 
+### Menú contextual en una pestaña
+
+Desde la **v0.5.7**, hacer clic derecho sobre una pestaña abre un menú contextual reactivo. Su acción de fijado es dinámica: el menú inspecciona los metadatos de estado activo de la pestaña y alterna inteligentemente entre **"Fijar Pestaña"** y **"Desfijar Pestaña"**, de modo que la etiqueta siempre coincide con lo que hará la acción.
+
 ## Reordenar pestañas
 
 - Arrastra una pestaña a izquierda o derecha y suéltala en su nueva posición.
@@ -54,3 +58,9 @@ El diálogo de confirmación ofrece **Eliminar nota** y **Cancelar**. Pulsar `Es
 ## Las notas se guardan automáticamente
 
 Todas tus notas y pestañas se guardan automáticamente en el almacenamiento local del navegador. Al cerrar y volver a abrir la app, todo se restaura donde lo dejaste. Consulta [Privacidad y datos](/es/guides/privacy/) para más detalle.
+
+### Indicador de estado de guardado
+
+Desde la **v0.5.7**, el indicador de autoguardado funciona con un **bucle de debounce de 5000 ms**: en lugar de cambiar con cada tecla, espera una pausa de 5 segundos en los cambios atómicos del editor antes de informar del estado de guardado. Así el indicador se mantiene fluido y deja de parpadear mientras escribes.
+
+![interface-empty-state](/screenshots/save-status-indicator.png)
