@@ -7,6 +7,10 @@ El editor es el área principal de la app. Haz clic en cualquier nota abierta y 
 
 ![interface-editor-basics](/screenshots/editor-basics.png)
 
+## Motor de texto enriquecido: Milkdown + ProseMirror
+
+Desde la **v0.5.6**, TomaNote renderiza y edita las notas con [Milkdown](https://milkdown.dev), un editor WYSIWYG de Markdown construido sobre el toolkit [ProseMirror](https://prosemirror.net). Esto aporta edición robusta a nivel de bloque (encabezados, listas, citas, bloques de código) con salida Markdown real — sin necesidad de un modo de vista previa aparte.
+
 ## Formato
 
 TomaNote admite formato de texto ligero. Selecciona un texto y usa el grupo **Fuente** de las herramientas (negrita, subrayado, cursiva) o los atajos de teclado de abajo.
@@ -58,6 +62,25 @@ Los elementos que necesitan selección (copiar, cortar, negrita, cursiva, subray
 
 ![interface-editor-context-menu](/screenshots/editor-context-menu.png)
 
-## Texto plano, no markdown
+## Bloques de código
 
-TomaNote guarda texto plano con formato ligero. **Todavía no hay vista previa de markdown** — está prevista para una versión futura (ver [Roadmap](/es/guides/settings/#roadmap)).
+Los scripts de código de varias líneas se formatean como elementos `pre` **a nivel de bloque**. Cuando escribes o pegas código, TomaNote lo envuelve en un bloque de código Markdown acotado (` ``` `) renderizado como bloque independiente con su propio estilo, separado de los párrafos circundantes en lugar de tratarse como texto en línea.
+
+- Fuente monoespaciada y un fondo distintivo para que los scripts destaquen del texto.
+- Los atajos de formato (`Ctrl+B`, `Ctrl+I`, `Ctrl+U`) no se aplican dentro de un bloque de código.
+
+## Enlaces e hipervínculos
+
+### Insertar un enlace
+
+Cómo se abre el modal de enlaces depende de si tienes texto seleccionado:
+
+- **Con selección:** al seleccionar texto e invocar la acción de enlace (barra de herramientas o menú contextual) se abre un modal enfocado con un **único campo de URL**. El texto seleccionado se convierte en el texto mostrado.
+- **Sin selección:** la misma acción abre un **diseño personalizado de dos campos** — **URL de destino** más **Texto mostrado personalizado**. Rellena ambos campos y confirma para insertar el nuevo enlace.
+
+### Abrir enlaces en el editor
+
+Los enlaces activos dentro del viewport del espacio de trabajo son clicables:
+
+- `Ctrl + Clic` (Windows/Linux) o `Cmd + Clic` (macOS) abre el destino del enlace.
+- Un clic normal mantiene el cursor en el editor para seguir editando el texto.
